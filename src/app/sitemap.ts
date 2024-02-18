@@ -26,7 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const projectsRoutes = projects.map((project) => ({
-    url: siteRoot + "/project/" + project.uid,
+    url: siteRoot + "/projects/" + project.uid,
     lastModified: project.last_publication_date,
   }));
 
