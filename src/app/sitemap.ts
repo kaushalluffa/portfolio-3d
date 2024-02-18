@@ -8,7 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const blogPosts = await client.getAllByType("blog_post");
   const projects = await client.getAllByType("project");
 
-  const siteRoot = "https://demo.com";
+  const siteRoot = "https://kaushal-luffa.netlify.app";
 
   const homepageRoute = {
     url: siteRoot,
