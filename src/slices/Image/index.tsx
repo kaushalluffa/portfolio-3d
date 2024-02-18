@@ -15,7 +15,8 @@ const Image = ({ slice }: ImageProps): JSX.Element => {
   return (
     <PrismicNextImage
       field={slice.primary.image}
-      className="not-prose w-full h-full rounded-md  my-10 md:my-14 lg:my-16"
+      className="not-prose my-10 h-full w-full  rounded-md md:my-14 lg:my-16"
+      alt=""
     />
   );
 };

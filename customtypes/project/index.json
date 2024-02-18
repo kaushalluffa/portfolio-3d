@@ -34,6 +34,22 @@
           "thumbnails": []
         }
       },
+      "github_link": {
+        "type": "Link",
+        "config": {
+          "label": "Github Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "demo_link": {
+        "type": "Link",
+        "config": {
+          "label": "Demo Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
