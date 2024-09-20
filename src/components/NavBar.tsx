@@ -156,20 +156,6 @@ function DesktopMenu({
           )}
         </React.Fragment>
       ))}
-      <li>
-        <Button
-          linkField={settings.data.cta_link}
-          label={settings.data.cta_label}
-          className="ml-3"
-        />
-      </li>
-      <li>
-        <Button
-          linkField={settings.data.cta_link_2}
-          label={settings.data.cta_label_2}
-          className="ml-3"
-        />
-      </li>
     </div>
   );
 }
